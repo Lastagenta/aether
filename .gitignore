@@ -1,0 +1,23 @@
+# --- КРИТИЧНО: Приватные данные ---
+identity.json
+*.local
+.env
+.env.*
+
+# --- Сборка и зависимости ---
+node_modules/
+dist/
+out/
+build/
+release/
+
+# --- IDE и логи ---
+.vscode/
+.cursor/
+*.log
+*.log*
+.DS_Store
+.eslintcache
+
+# --- Временные файлы Electron ---
+.electron-builder/
